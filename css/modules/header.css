@@ -1,0 +1,41 @@
+.header{
+	background: url('../img/background/header.jpg') no-repeat center center;
+	background-size: cover;
+	padding-top: 58px;
+	&__burger{
+		background: url('../img/svg/burger-menu.svg') no-repeat top left;
+		background-size: contain;
+		display: block;
+		height: 30px;
+		width: 30px;
+	}
+	&__mouse{
+		background: url('../img/svg/mouse-icon.svg') no-repeat bottom center;
+		background-size: contain;
+		display: inline-block;
+		height: 60px;
+		width: 40px;
+		position: relative;
+		bottom: 20px;
+		margin-top: 310px;
+	}
+	&__title::after{
+		border-bottom: 2px solid #fff;
+		content: "";
+		display: block;
+		margin: 43px 0;
+		margin-left: 47%;
+		margin-right: 47%;
+	}
+	&__title{
+		font-size: 48px;
+		color: #fff;
+		font-family: bigjohn;
+		margin-top: 155px;
+	}
+	&__description{
+		font-family: amble-regular;
+		color: #fff;
+		font-size: 22px;
+	}
+}
