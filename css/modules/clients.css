@@ -1,0 +1,29 @@
+.clients{
+	&__content{
+		padding-top: 120px;
+		padding-bottom: 130px;
+	}
+	&__title::after{
+		border-bottom: 2px solid #222;
+		content: "";
+		display: block;
+		margin: 43px 0;
+		margin-left: 47%;
+		margin-right: 47%;
+	}
+	&__title{
+		font-family: bigjohn;
+		color: #222;
+		font-size: 30px;
+		font-weight: 100;
+		margin-bottom: 42px;
+	}
+	&__block{
+		display: inline-block;
+		margin-right: 7%;
+		max-width: 100%;
+	}
+	&__block:last-child{
+		margin-right: 0;
+	}
+}

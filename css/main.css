@@ -1,8 +1,12 @@
 @import 'normalize.css';
 @import 'modules/font.css';
 @import 'modules/container.css';
+@import 'modules/layout.css';
 @import 'modules/header.css';
 @import 'modules/introduction.css';
 @import 'modules/pure.css';
 @import 'modules/work.css';
+@import 'modules/help.css';
+@import 'modules/clients.css';
+@import 'modules/about.css';
 
