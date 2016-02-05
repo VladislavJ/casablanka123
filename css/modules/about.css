@@ -1,4 +1,5 @@
 .about{
+	padding-bottom: 80px;
 	&__title::after{
 		border-bottom: 2px solid #222;
 		content: "";
@@ -24,6 +25,7 @@
 		padding-bottom: 75px;
 	}
 	&__block{
+		margin: auto;
 		position: relative;
 		width: 270px;
 		height: 330px;

@@ -1469,6 +1469,9 @@ th {
 .clients__block:last-child{
   margin-right: 0;
 }
+.about{
+	padding-bottom: 80px;
+}
 .about__title::after{
   border-bottom: 2px solid #222;
   content: "";
@@ -1494,6 +1497,7 @@ th {
   padding-bottom: 75px;
 }
 .about__block{
+  margin: auto;
   position: relative;
   width: 270px;
   height: 330px;
