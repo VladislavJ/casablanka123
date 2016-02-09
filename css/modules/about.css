@@ -27,8 +27,7 @@
 	&__block{
 		margin: auto;
 		position: relative;
-		width: 270px;
-		height: 330px;
+		max-width: 270px;
 	}
 	&__info{
 		width: 50%;
@@ -72,5 +71,6 @@
 	}
 	&__photo{
 		width: 100%;
+		display: block;
 	}
 }

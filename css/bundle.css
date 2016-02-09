@@ -483,9 +483,9 @@ th {
 	clear: both;
 }
 /*!
- * patch-layout 3.0.0
+ * patch-layout 3.0.1
  * https://github.com/TrySound/patch-layout
- * Copyright 2015 Bogdan Chadkin <trysound@yandex.ru>
+ * Copyright 2016 Bogdan Chadkin <trysound@yandex.ru>
  */
 
 @-webkit-viewport {
@@ -1235,14 +1235,15 @@ th {
 	overflow: hidden;
 }
 
-.embed-responsive--16by9:before,
-.embed-responsive:before {
+.embed-responsive,
+.embed-responsive--16by9 {
 	content: '';
 	display: block;
-	padding-bottom: 56.25%;
+	padding-bottom: 43.95%;
+
 }
 
-.embed-responsive--4by3:before {
+.embed-responsive--4by3 {
 	padding-bottom: 75%;
 }
 
@@ -1499,8 +1500,7 @@ th {
 .about__block{
   margin: auto;
   position: relative;
-  width: 270px;
-  height: 330px;
+  max-width: 270px;
 }
 .about__info{
   width: 50%;
@@ -1543,5 +1543,19 @@ th {
 }
 .about__photo{
   width: 100%;
+  display: block;
+}
+.video{
+	background: url(../img/background/video.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+/* 	&__play{
+		background: url('../img/svg/play.svg') no-repeat;
+		background-size: contain;
+		display: block;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+	} */
 }
 

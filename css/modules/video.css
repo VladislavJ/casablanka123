@@ -1,0 +1,13 @@
+.video{
+	background: url(../img/background/video.jpg) no-repeat center center;
+	background-size: cover;
+	height: 500px;
+/* 	&__play{
+		background: url('../img/svg/play.svg') no-repeat;
+		background-size: contain;
+		display: block;
+		height: 30px;
+		width: 30px;
+		margin: auto;
+	} */
+}
