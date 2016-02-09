@@ -1,13 +1,18 @@
 .video{
+	position: relative;
 	background: url(../img/background/video.jpg) no-repeat center center;
 	background-size: cover;
-	height: 500px;
-/* 	&__play{
+	&__play{
 		background: url('../img/svg/play.svg') no-repeat;
 		background-size: contain;
-		display: block;
+		display: inline-block;
 		height: 30px;
 		width: 30px;
-		margin: auto;
-	} */
+		position: absolute;
+		top: 50%;
+		margin-top: -0.625em;
+	}
+	iframe{
+		visibility: hidden;
+	}
 }
