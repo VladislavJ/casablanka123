@@ -1560,6 +1560,7 @@ th {
   top: 50%;
   margin-top: -15px;
   z-index: 10;
+  cursor: pointer;
 }
 .video iframe{
   visibility: hidden;
