@@ -141,12 +141,24 @@
 
 	<section class="video">
 		<div class="container">
-			<a class="video__play" href="#"></a>
+			<div id="close" class="video__play" onclick="openMe()"></div>
 			<div class="embed-responsive">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/Fgb2izt19OI" frameborder="0" allowfullscreen></iframe>
+				<iframe id="open" width="560" height="315" src="https://www.youtube.com/embed/Fgb2izt19OI" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
 
+	<script>
+	function openMe(){
+	x=document.getElementById("open");
+	y=document.getElementById("close");
+	x.style.visibility="visible";
+	y.style.visibility="hidden";
+	}
+	function openMe(){
+	x=document.getElementById("open");
+	x.style.visibility="visible";
+	}
+	</script>
 </body>
 </html>

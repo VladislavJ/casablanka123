@@ -1558,7 +1558,8 @@ th {
   width: 30px;
   position: absolute;
   top: 50%;
-  margin-top: -0.625em;
+  margin-top: -15px;
+  z-index: 10;
 }
 .video iframe{
   visibility: hidden;
