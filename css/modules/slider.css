@@ -22,11 +22,31 @@
 	}
 	&__item{
 		display: inline-block;
-		max-width: 390px;
-		max-height: auto;
+		max-width: 100%;
+		min-height: 152px;
 	}
-	&__block{
-		
-		height: auto;
+	&__photo-1{
+		background: url(../img/grid/phone.png) no-repeat 50% 0%;
+	}
+	&__photo-2{
+		background: url(../img/grid/notepad.png) no-repeat 50% 18%;
+	}
+	&__photo-3{
+		background: url(../img/grid/pc.png) no-repeat 50% 12%;
+	}
+	&__wrapper{
+		margin-top: 150px;
+	}
+	&__tit, &__des{
+		font-family: amble-regular;
+		color: #222;
+		font-weight: 100;
+	}
+	&__tit{
+		font-size: 24px;
+		padding: 25px 0 0 0;
+	}
+	&__des{
+		font-size: 16px;
 	}
 }
