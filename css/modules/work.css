@@ -1,12 +1,4 @@
 .work{
-	&__title::after{
-		border-bottom: 2px solid #222;
-		content: "";
-		display: block;
-		margin: 43px 0;
-		margin-left: 47%;
-		margin-right: 47%;
-	}
 	&__title{
 		font-family: bigjohn;
 		color: #222;
@@ -15,6 +7,14 @@
 		padding-top: 80px;
 		margin-top: 0;
 		margin-bottom: 48px;
+		&::after{
+			border-bottom: 2px solid #222;
+			content: "";
+			display: block;
+			margin: 43px 0;
+			margin-left: 47%;
+			margin-right: 47%;
+		}
 	}
 	&__list{
 		padding: 0;
@@ -30,9 +30,9 @@
 		color: #222;
 		text-decoration: none;
 		opacity: 0.9;
-	}
-	&__link:acitve{
-		opacity: 1;
+		&:active{
+			opacity: 1;
+		}
 	}
 	&__block{
 		display: inline-block;

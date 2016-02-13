@@ -1,0 +1,23 @@
+.slider{
+	&__title{
+		font-family: bigjohn;
+		color: #222;
+		font-size: 30px;
+		font-weight: 100;
+		margin-top: 80px;
+		margin-bottom: 50px;
+			&::after{
+				border-bottom: 2px solid #222;
+				content: "";
+				display: block;
+				margin: 43px 0;
+				margin-left: 47%;
+				margin-right: 47%;
+			}
+	}
+	&__description{
+		font-family: amble-light;
+		font-size: 22px;
+		color: #222;
+	}
+}

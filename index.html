@@ -84,7 +84,7 @@
 		<div class="container">
 			<div class="about__content">
 				<h2 class="about__title">about us</h2>
-				<p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+				<p class="about__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris.</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-md-6 col-xs-12">
@@ -148,13 +148,30 @@
 		</div>
 	</section>
 
-	<script>
-	function openMe(){
-	x=document.getElementById("video_open");
-	y=document.getElementById("icon_close");
-	x.style.visibility="visible";
-	y.style.visibility="hidden";
-	}
-	</script>
+	<section class="slider">
+		<div class="container">
+			<h2 class="slider__title">about us</h2>
+			<p class="slider__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br> veniam, quis nostrud exercitation ullamco laboris.</p>
+			<div class="wrapper">
+				<ul class="owl-carousel owl-theme owl-loaded">
+					<li class="slider_item">
+						<img src="img/grid/pc.png" alt="">
+						<img src="img/grid/pc.png" alt="">
+						<img src="img/grid/pc.png" alt="">
+					</li>
+					<li class="slider_item">
+						<img src="img/grid/notepad.png" alt="">
+						<img src="img/grid/notepad.png" alt="">
+						<img src="img/grid/notepad.png" alt="">
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src='js/index.js'></script>
+
 </body>
 </html>
