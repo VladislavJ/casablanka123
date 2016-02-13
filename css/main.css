@@ -2,6 +2,8 @@
 @import 'modules/font.css';
 @import 'modules/container.css';
 @import 'modules/layout.css';
+@import 'modules/owl.carousel.css';
+@import 'modules/owl.theme.default.min.css';
 @import 'modules/header.css';
 @import 'modules/introduction.css';
 @import 'modules/pure.css';
@@ -11,8 +13,10 @@
 @import 'modules/about.css';
 @import 'modules/video.css';
 @import 'modules/slider.css';
-@import 'modules/owl.carousel.css';
-@import 'modules/owl.theme.default.min.css';
+@import 'modules/getnow.css';
+@import 'modules/touch.css';
+@import 'modules/contact.css';
+
 
 
 

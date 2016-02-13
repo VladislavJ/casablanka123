@@ -1,0 +1,16 @@
+.contact{
+	height: 400px;
+	&__bg-colors{
+		position: absolute;
+		top: 0;
+	}
+	&__left-color, &__right-color{
+		width: 50%;
+	}
+	&__left-color{
+		background: #f2f2f2;
+	}
+	&__right-color{
+		background: #e4e4e4;
+	}
+}
