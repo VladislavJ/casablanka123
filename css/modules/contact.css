@@ -1,16 +1,47 @@
 .contact{
-	height: 400px;
+	position: relative;
+	height: 500px;
 	&__bg-colors{
 		position: absolute;
 		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 	&__left-color, &__right-color{
+		height: 100%;
+		position: absolute;
 		width: 50%;
 	}
 	&__left-color{
 		background: #f2f2f2;
+		left: 0;
 	}
 	&__right-color{
 		background: #e4e4e4;
+		right: 0;
+	}
+	&__location{
+		text-align: left;
+		background: #f2f2f2;
+	}
+	&__feedback{
+		text-align: right;
+		background: #e4e4e4;
+		height: 500px;
+	}
+	&__title{
+		font-family: bigjohn;
+		color: #222;
+		font-size: 24px;
+		font-weight: 100;
+		padding-top: 120px;
+		padding-bottom: 20px;
+	}
+	&__description{
+		font-family: amble-light;
+		color: #222;
+		font-size: 22px;
+		line-height: 40px;
 	}
 }
