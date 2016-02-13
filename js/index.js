@@ -2,14 +2,14 @@ $(document).ready(function(){
 	$(".owl-carousel").owlCarousel({
 	autoplay:false,
 	animateOut: 'fadeOut',
-	items:2,
+	items:1,
 	itemsScaleUp: true,
 	margin:0,
 	stagePadding:0,
 	smartSpeed:450,
 	dots:true,
 	slideSpeed: 1,
-	autoplay:true,
+	// autoplay:true,
 	mouseDrag:false
 	});
 });

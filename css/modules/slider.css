@@ -20,4 +20,13 @@
 		font-size: 22px;
 		color: #222;
 	}
+	&__item{
+		display: inline-block;
+		max-width: 390px;
+		max-height: auto;
+	}
+	&__block{
+		
+		height: auto;
+	}
 }

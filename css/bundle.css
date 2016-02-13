@@ -1588,6 +1588,14 @@ th {
   font-size: 22px;
   color: #222;
 }
+.slider__item{
+  display: inline-block;
+  max-width: 390px;
+  max-height: auto;
+}
+.slider__block{
+  height: auto;
+}
 /* 
  *  Owl Carousel - Animate Plugin
  */
