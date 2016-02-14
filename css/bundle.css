@@ -1896,10 +1896,12 @@ th {
   right: 0;
 }
 .contact__location{
+  padding-top: 120px;
   text-align: left;
   background: #f2f2f2;
 }
 .contact__feedback{
+  padding-top: 128px;
   text-align: right;
   background: #e4e4e4;
   height: 500px;
@@ -1909,7 +1911,6 @@ th {
   color: #222;
   font-size: 24px;
   font-weight: 100;
-  padding-top: 120px;
   padding-bottom: 20px;
 }
 .contact__description{
@@ -1958,22 +1959,69 @@ th {
   padding-right: 12px;
   color: #222;
 }
-.contact__input-group{
-  position: relative;
-  height: 40px;
-  width: 100%;
-  margin-bottom: 10px;
-}
 .contact__input{
   font-family: amble-regular;
   font-size: 18px;
   color: #676767;
+  font-style: italic;
   font-weight: 100;
   background: #e4e4e4;
   border-bottom: 2px solid #afafaf;
   border-top: 0;
   border-left: 0;
   border-right: 0;
+  display: inline-block;
+  width: 300px;
+  margin-left: 70px;
+  line-height: 40px;
+}
+.contact__input::-webkit-input-placeholder,.contact__textarea::-webkit-input-placeholder{
+  font-family: amble-regular;
+  font-size: 18px;
+  color: #676767;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+}
+.contact__input::-moz-placeholder,.contact__textarea::-moz-placeholder{
+  font-family: amble-regular;
+  font-size: 18px;
+  color: #676767;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+}
+.contact__input:-ms-input-placeholder,.contact__textarea:-ms-input-placeholder{
+  font-family: amble-regular;
+  font-size: 18px;
+  color: #676767;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+}
+.contact__input::placeholder,.contact__textarea::placeholder{
+  font-family: amble-regular;
+  font-size: 18px;
+  color: #676767;
+  font-weight: 100;
+  font-style: italic;
+  opacity: 1;
+}
+.contact__textarea{
+  width: 670px;
+  background: #e4e4e4;
+  border-bottom: 2px solid #afafaf;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  resize: none;
+  font-family: amble-regular;
+  font-size: 18px;
+  color: #676767;
+  font-weight: 100;
+  margin-top: 100px;
+  line-height: 13px;
+  font-style: italic;
 }
 
 
