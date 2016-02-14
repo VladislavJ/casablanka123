@@ -1918,6 +1918,63 @@ th {
   font-size: 22px;
   line-height: 40px;
 }
+.contact__twitter{
+  background: url('../img/svg/twitter.svg') no-repeat;
+  background-size: contain;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.contact__facebook{
+  background: url('../img/svg/facebook.svg') no-repeat;
+  background-size: contain;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.contact__linkedin{
+  background: url('../img/svg/linkedin.svg') no-repeat;
+  background-size: contain;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.contact__vimeo{
+  background: url('../img/svg/vimeo.svg') no-repeat;
+  background-size: contain;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.contact__behance{
+  background: url('../img/svg/behance.svg') no-repeat;
+  background-size: contain;
+  display: block;
+  height: 20px;
+  width: 20px;
+}
+.contact__twitter, .contact__facebook, .contact__linkedin, .contact__vimeo, .contact__behance {
+  display: inline-block;
+  padding-right: 12px;
+  color: #222;
+}
+.contact__input-group{
+  position: relative;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact__input{
+  font-family: amble-regular;
+  font-size: 18px;
+  color: #676767;
+  font-weight: 100;
+  background: #e4e4e4;
+  border-bottom: 2px solid #afafaf;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
 
 
 
