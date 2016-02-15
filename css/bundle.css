@@ -1505,6 +1505,8 @@ th {
   margin-right: 47%;
 }
 .header__description{
+  max-width: 630px;
+  margin: auto;
   font-family: amble-regular;
   color: #fff;
   font-size: 22px;
@@ -1519,6 +1521,7 @@ th {
   font-size: 30px;
   font-weight: 100;
   margin-bottom: 42px;
+  margin: 0;
 }
 .intro__title::after{
   border-bottom: 2px solid #222;
@@ -1529,12 +1532,11 @@ th {
   margin-right: 47%;
 }
 .intro__description{
+  margin: auto;
+  max-width: 770px;
   font-family: amble-light;
   font-size: 22px;
   color: #222;
-}
-.intro__title, .intro__description{
-  margin: 0;
 }
 .pure{
     background: url(../img/background/pure.jpg) center center;
@@ -1663,11 +1665,8 @@ th {
 }
 .clients__block{
   display: inline-block;
-  margin-right: 7%;
+  margin: 0 3%;
   max-width: 100%;
-}
-.clients__block:last-child{
-  margin-right: 0;
 }
 .about{
 	padding-bottom: 80px;
@@ -1688,6 +1687,8 @@ th {
   margin-right: 47%;
 }
 .about__description{
+  margin: auto;
+  max-width: 770px;
   font-family: amble-light;
   font-size: 22px;
   color: #222;
@@ -1783,6 +1784,9 @@ th {
   margin-right: 47%;
 }
 .slider__description{
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 770px;
   font-family: amble-light;
   font-size: 22px;
   color: #222;
@@ -1815,6 +1819,8 @@ th {
 }
 .slider__des{
   font-size: 16px;
+  max-width: 340px;
+  margin: auto;
 }
 .slider .owl-carousel{
   -webkit-padding-start: 0;
@@ -2059,6 +2065,43 @@ th {
 .footer__description--orange{
   font-family: amble-bold;
   color: #c66f3f;
+}
+@media screen and (max-width : 992px) {
+	.about__block{
+    margin: 40px auto;
+  }
+}
+@media screen and (max-width : 768px) {
+	.contact__feedback{
+    padding-top: 15px;
+    text-align: left;
+  }
+	.contact__location{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+	.contact__textarea{
+    width: 275px;
+    margin-top: 8px;
+  }
+	.contact__input{
+    margin-left:0;
+  }
+}
+@media screen and (max-width : 320px) {
+	.about__content{
+    padding-top: 0;
+  }
+	.getnow__btn{
+    font-size: 26px;
+  }
+	.help__btn{
+    font-size: 26px;
+  }
+	.pure__btn{
+    font-size: 26px;
+  }
 }
 
 

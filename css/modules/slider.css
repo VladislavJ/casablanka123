@@ -16,6 +16,9 @@
 			}
 	}
 	&__description{
+		margin: auto;
+		margin-bottom: 100px;
+		max-width: 770px;
 		font-family: amble-light;
 		font-size: 22px;
 		color: #222;
@@ -48,6 +51,8 @@
 	}
 	&__des{
 		font-size: 16px;
+		max-width: 340px;
+		margin: auto;
 	}
 	.owl-carousel{
 		-webkit-padding-start: 0;

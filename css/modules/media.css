@@ -1,0 +1,49 @@
+@media screen and (max-width : 992px) {
+	.about{
+		&__block{
+			margin: 40px auto;
+		}
+	}
+}
+@media screen and (max-width : 768px) {
+	.contact{
+		&__feedback{
+			padding-top: 15px;
+			text-align: left;
+		}
+		&__location{
+			text-align: center;
+			padding-top: 0;
+			padding-bottom: 20px;
+		}
+		&__textarea{
+			width: 275px;
+			margin-top: 8px;
+		}
+		&__input{
+			margin-left:0;
+		}
+	}
+}
+@media screen and (max-width : 320px) {
+	.about{
+		&__content{
+			padding-top: 0;
+		}
+	}
+	.getnow{
+		&__btn{
+			font-size: 26px;
+		}
+	}
+	.help{
+		&__btn{
+			font-size: 26px;
+		}
+	}
+	.pure{
+		&__btn{
+			font-size: 26px;
+		}
+	}
+}

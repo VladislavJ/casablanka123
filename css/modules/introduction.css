@@ -9,6 +9,7 @@
 		font-size: 30px;
 		font-weight: 100;
 		margin-bottom: 42px;
+		margin: 0;
 		&::after{
 			border-bottom: 2px solid #222;
 			content: "";
@@ -19,11 +20,10 @@
 		}
 	}
 	&__description{
+		margin: auto;
+		max-width: 770px;
 		font-family: amble-light;
 		font-size: 22px;
 		color: #222;
-	}
-	&__title, &__description{
-		margin: 0;
 	}
 }

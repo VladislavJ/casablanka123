@@ -16,6 +16,8 @@
 		}
 	}
 	&__description{
+		margin: auto;
+		max-width: 770px;
 		font-family: amble-light;
 		font-size: 22px;
 		color: #222;
