@@ -1971,12 +1971,13 @@ th {
   border-left: 0;
   border-right: 0;
   display: inline-block;
-  width: 300px;
+  width: 275px;
   margin-left: 70px;
-  height: 30px;
+  height: 35px;
+  padding-left: 25px;
 }
 .contact__textarea{
-  width: 670px;
+  width: 645px;
   background: #e4e4e4;
   border-bottom: 2px solid #afafaf;
   border-top: 0;
@@ -1989,7 +1990,8 @@ th {
   font-weight: 100;
   margin-top: 100px;
   font-style: italic;
-  height: 30px;
+  height: 35px;
+  padding-left: 25px;
 }
 .contact__input::-webkit-input-placeholder,.contact__textarea::-webkit-input-placeholder{
   font-family: amble-regular;
@@ -2022,6 +2024,15 @@ th {
   font-weight: 100;
   font-style: italic;
   opacity: 1;
+}
+.contact__button{
+  height: 54px;
+  width: 177px;
+  margin-top: 34px;
+  border: 3px solid #222;
+  font-family: amble-bold;
+  font-size: 24px;
+  color: #222;
 }
 
 
