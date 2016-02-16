@@ -1,13 +1,29 @@
+@media screen and (max-width : 1138px) {
+	.clients{
+		&__content{
+			padding-bottom: 0;
+		}
+	}
+}
 @media screen and (max-width : 992px) {
 	.about{
 		&__block{
-			margin: 40px auto;
+			margin: 20px auto;
+		}
+	}
+}
+@media screen and (max-width : 858px) {
+	.work{
+		&__item{
+			padding: 0 10px;
 		}
 	}
 }
 @media screen and (max-width : 768px) {
 	.contact{
+		height: 100%;
 		&__feedback{
+			height: 247px;
 			padding-top: 15px;
 			text-align: left;
 		}
@@ -18,19 +34,63 @@
 		}
 		&__textarea{
 			width: 275px;
-			margin-top: 8px;
+			display: block;
+			margin: 8px auto;
+			padding: 0;
+			text-align: center;
 		}
 		&__input{
-			margin-left:0;
+			margin-left: 0;
+			padding: 0;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		&__textarea{
+			display: block;
+			margin: 8px auto;
+			text-align: center;
+		}
+		&__button{
+			display: block;
+			margin: 30px auto;
+		}
+
+	}
+}
+@media screen and (max-width : 658px) {
+	.work{
+		&__item{
+			display: block;
 		}
 	}
 }
-@media screen and (max-width : 320px) {
-	.about{
-		&__content{
-			padding-top: 0;
+@media screen and (max-width : 412px) {
+	.footer{
+		&__logo{
+			width: 100%;
 		}
 	}
+}
+@media screen and (max-width : 380px) {
+	.clients{
+		&__block{
+			display: block;
+			margin: 0 auto;
+			max-width: 50%;
+		}
+		&__content{
+			padding-top: 100px;
+		}
+	}
+	.about{
+		&__content{
+			padding-top: 100px;
+		}
+	}
+}
+
+@media screen and (max-width : 320px) {
 	.getnow{
 		&__btn{
 			font-size: 26px;

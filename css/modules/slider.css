@@ -51,10 +51,9 @@
 	}
 	&__des{
 		font-size: 16px;
-		max-width: 340px;
-		margin: auto;
 	}
 	.owl-carousel{
+		-moz-padding-start: 0;
 		-webkit-padding-start: 0;
 		padding-bottom: 40px;
 	}
