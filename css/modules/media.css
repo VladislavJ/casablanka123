@@ -85,6 +85,11 @@
 	}
 }
 @media screen and (max-width : 380px) {
+	.header{
+		&__title{
+			font-size: 28px;
+		}
+	}
 	.clients{
 		&__block{
 			display: block;

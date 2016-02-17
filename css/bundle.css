@@ -2140,6 +2140,9 @@ th {
   }
 }
 @media screen and (max-width : 380px) {
+	.header__title{
+    font-size: 28px;
+  }
 	.clients__block{
     display: block;
     margin: 0 auto;
