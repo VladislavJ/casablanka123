@@ -10,7 +10,8 @@ $(document).ready(function(){
 	slideSpeed: 800,
 	autoplay:true,
 	mouseDrag:false,
-	touchDrag:false
+	touchDrag:false,
+	dragBeforeAnimFinish: false
 	});
 });
 
