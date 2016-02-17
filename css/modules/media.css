@@ -40,6 +40,9 @@
 		&__content{
 			padding-bottom: 0;
 		}
+		&__block{
+			margin: 1% 3%;
+		}
 	}
 }
 @media screen and (max-width : 992px) {

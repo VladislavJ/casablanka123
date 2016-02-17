@@ -2108,6 +2108,9 @@ th {
 	.clients__content{
     padding-bottom: 0;
   }
+	.clients__block{
+    margin: 1% 3%;
+  }
 }
 @media screen and (max-width : 992px) {
 	.about__block{
