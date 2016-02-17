@@ -1924,6 +1924,7 @@ th {
   color: #222;
   font-size: 22px;
   line-height: 40px;
+  max-width: 230px;
 }
 .contact__twitter{
   background: url('../img/svg/twitter.svg') no-repeat;
@@ -2066,35 +2067,18 @@ th {
   font-family: amble-bold;
   color: #c66f3f;
 }
-@media screen and (max-width : 1138px) {
-	.clients__content{
-    padding-bottom: 0;
-  }
-}
-@media screen and (max-width : 992px) {
-	.about__block{
-    margin: 20px auto;
-  }
-}
-@media screen and (max-width : 858px) {
-	.work__item{
-    padding: 0 10px;
-  }
-}
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 1166px) {
 	.contact{
 		height: 100%;
-
 	}
-	.contact__feedback{
-    height: 247px;
-    padding-top: 15px;
-    text-align: left;
+	.contact__description{
+    padding-bottom: 15px;
+    margin: auto;
   }
-	.contact__location{
+	.contact__feedback{
     text-align: center;
-    padding-top: 0;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    height: 320px;
   }
 	.contact__textarea{
     width: 275px;
@@ -2110,19 +2094,41 @@ th {
     margin: auto;
     text-align: center;
   }
-	.contact__textarea{
-    display: block;
-    margin: 8px auto;
-    text-align: center;
-  }
 	.contact__button{
     display: block;
     margin: 30px auto;
+  }
+	.contact__location{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width : 1138px) {
+	.clients__content{
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width : 992px) {
+	.about__block{
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width : 858px) {
+	.work__item{
+    padding: 0 10px;
   }
 }
 @media screen and (max-width : 658px) {
 	.work__item{
     display: block;
+  }
+	.contact__button{
+    width: 140px;
+    height: 40px;
+  }
+	.footer__description{
+    font-size: 14px;
   }
 }
 @media screen and (max-width : 412px) {

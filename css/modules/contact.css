@@ -44,6 +44,7 @@
 		color: #222;
 		font-size: 22px;
 		line-height: 40px;
+		max-width: 230px;
 	}
 	&__twitter{
 		background: url('../img/svg/twitter.svg') no-repeat;

@@ -1,3 +1,40 @@
+@media screen and (max-width : 1166px) {
+	.contact{
+		height: 100%;
+		&__description{
+			padding-bottom: 15px;
+			margin: auto;
+		}
+		&__feedback{
+			text-align: center;
+			padding-top: 50px;
+			height: 320px;
+		}
+		&__textarea{
+			width: 275px;
+			display: block;
+			margin: 8px auto;
+			padding: 0;
+			text-align: center;
+		}
+		&__input{
+			margin-left: 0;
+			padding: 0;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		&__button{
+			display: block;
+			margin: 30px auto;
+		}
+		&__location{
+			text-align: center;
+			padding-top: 0;
+			padding-bottom: 20px;
+		}
+	}
+}
 @media screen and (max-width : 1138px) {
 	.clients{
 		&__content{
@@ -19,49 +56,21 @@
 		}
 	}
 }
-@media screen and (max-width : 768px) {
-	.contact{
-		height: 100%;
-		&__feedback{
-			height: 247px;
-			padding-top: 15px;
-			text-align: left;
-		}
-		&__location{
-			text-align: center;
-			padding-top: 0;
-			padding-bottom: 20px;
-		}
-		&__textarea{
-			width: 275px;
-			display: block;
-			margin: 8px auto;
-			padding: 0;
-			text-align: center;
-		}
-		&__input{
-			margin-left: 0;
-			padding: 0;
-			display: block;
-			margin: auto;
-			text-align: center;
-		}
-		&__textarea{
-			display: block;
-			margin: 8px auto;
-			text-align: center;
-		}
-		&__button{
-			display: block;
-			margin: 30px auto;
-		}
-
-	}
-}
 @media screen and (max-width : 658px) {
 	.work{
 		&__item{
 			display: block;
+		}
+	}
+	.contact{
+		&__button{
+			width: 140px;
+			height: 40px;
+		}
+	}
+	.footer{
+		&__description{
+			font-size: 14px;
 		}
 	}
 }
