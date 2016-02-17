@@ -1666,7 +1666,6 @@ th {
 .clients__block{
   display: inline-block;
   margin: 0 3%;
-  max-width: 100%;
 }
 .about{
 	padding-bottom: 80px;
@@ -2135,7 +2134,7 @@ th {
 	.clients__block{
     display: block;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 200px;
   }
 	.clients__content{
     padding-top: 100px;
