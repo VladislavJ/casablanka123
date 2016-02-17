@@ -8,8 +8,9 @@ $(document).ready(function(){
 	smartSpeed:450,
 	dots:true,
 	slideSpeed: 800,
-	// autoplay:true,
-	mouseDrag:false
+	autoplay:true,
+	mouseDrag:false,
+	touchDrag:false
 	});
 });
 
